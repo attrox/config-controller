@@ -2,7 +2,7 @@
 
 This package provides a quick front-end admin interface to update a Laravel configuration file.
 
-This is for the lazy developers who wants a quick "CMS" like admin interface to control the display of some webpage without the use of database. Just set up the Laravel configuration file and expose the page name (slug).
+This is for the lazy developers who wants a quick "CMS" like admin interface to control the display of some web-page without the use of database. Just set up the Laravel configuration file and expose the page name (slug). The admin update will write back into the Laravel configuration file keeping intact the structure and comment in the config file.
 
 ### Usage Instructions
 
@@ -33,5 +33,8 @@ $router->get('/dynamic/{$slug}', 'YourControllerClass@index');
 
 Copy ```vendor/attrox/config-controller/views/config_admin.blade.php``` to your views folder. This is a sample admin interface view that you can include in your main view.
 
+### Dependencies
+
+This package is dependent on ```October\Rain\Config\Repository``` package (https://github.com/attrox/laravel-config-writer). A package I fork from https://github.com/daftspunk/laravel-config-writer to work with Laravel 5.x
 
 
