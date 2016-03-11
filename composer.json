@@ -3,7 +3,7 @@
     "type": "library",
     "description": "This package provides a quick front-end admin interface to update a Laravel configuration file.",
     "require": {
-        "laravel/laravel": "~5.1"
+        "laravel/framework": "~5.1"
     },
     "homepage": "https://github.com/attrox/config-controller",
     "license": "MIT",
