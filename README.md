@@ -37,4 +37,11 @@ Copy ```vendor/attrox/config-controller/views/config_admin.blade.php``` to your 
 
 This package is dependent on ```October\Rain\Config\Repository``` package (https://github.com/attrox/laravel-config-writer). A package I fork from https://github.com/daftspunk/laravel-config-writer to work with Laravel 5.x
 
+```
+"require": {
+    "laravelcollective/html": "5.1.*"
+}
+```
+Need to make the ```Form``` facade available (https://laravelcollective.com/docs/5.1/html)
+
 
